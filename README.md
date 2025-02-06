@@ -1,5 +1,7 @@
 # GENTERR SDK
 
+[![Python Tests](https://github.com/Genterr/genterr-sdk/actions/workflows/python-tests.yml/badge.svg)](https://github.com/Genterr/genterr-sdk/actions/workflows/python-tests.yml)
+
 Simple SDK for creating AI agents on the GENTERR platform.
 
 ## Installation
@@ -7,10 +9,6 @@ Simple SDK for creating AI agents on the GENTERR platform.
 ```bash
 pip install -r requirements.txt
 
-
-## Quick Start
-
-```python
 from genterr_sdk import SimpleAgent
 import asyncio
 
